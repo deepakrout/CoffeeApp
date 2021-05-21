@@ -17,6 +17,7 @@
 		1609C764265749BA000E2CDE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C763265749BA000E2CDE /* Order.swift */; };
 		1609C76826574A82000E2CDE /* CoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C76726574A82000E2CDE /* CoffeeService.swift */; };
 		1609C76C26574D48000E2CDE /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C76B26574D48000E2CDE /* OrderListViewModel.swift */; };
+		162DB03D26583E24002A9FB6 /* OrderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162DB03C26583E24002A9FB6 /* OrderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1609C763265749BA000E2CDE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		1609C76726574A82000E2CDE /* CoffeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeService.swift; sourceTree = "<group>"; };
 		1609C76B26574D48000E2CDE /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
+		162DB03C26583E24002A9FB6 /* OrderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +66,12 @@
 		1609C74826574787000E2CDE /* CoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				162DB03B26583DC6002A9FB6 /* Views */,
 				1609C76A26574D26000E2CDE /* ViewModels */,
 				1609C76626574A6D000E2CDE /* Services */,
 				1609C75E265747DB000E2CDE /* Models */,
 				1609C74926574787000E2CDE /* AppDelegate.swift */,
 				1609C74B26574787000E2CDE /* SceneDelegate.swift */,
-				1609C74D26574787000E2CDE /* ContentView.swift */,
 				1609C74F26574788000E2CDE /* Assets.xcassets */,
 				1609C75426574788000E2CDE /* LaunchScreen.storyboard */,
 				1609C75726574788000E2CDE /* Info.plist */,
@@ -109,6 +111,15 @@
 				1609C76B26574D48000E2CDE /* OrderListViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		162DB03B26583DC6002A9FB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1609C74D26574787000E2CDE /* ContentView.swift */,
+				162DB03C26583E24002A9FB6 /* OrderListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1609C74A26574787000E2CDE /* AppDelegate.swift in Sources */,
+				162DB03D26583E24002A9FB6 /* OrderListView.swift in Sources */,
 				1609C74C26574787000E2CDE /* SceneDelegate.swift in Sources */,
 				1609C764265749BA000E2CDE /* Order.swift in Sources */,
 				1609C74E26574787000E2CDE /* ContentView.swift in Sources */,
