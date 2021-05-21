@@ -13,6 +13,10 @@
 		1609C75026574788000E2CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1609C74F26574788000E2CDE /* Assets.xcassets */; };
 		1609C75326574788000E2CDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1609C75226574788000E2CDE /* Preview Assets.xcassets */; };
 		1609C75626574788000E2CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1609C75426574788000E2CDE /* LaunchScreen.storyboard */; };
+		1609C760265747F5000E2CDE /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C75F265747F5000E2CDE /* Coffee.swift */; };
+		1609C764265749BA000E2CDE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C763265749BA000E2CDE /* Order.swift */; };
+		1609C76826574A82000E2CDE /* CoffeeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C76726574A82000E2CDE /* CoffeeService.swift */; };
+		1609C76C26574D48000E2CDE /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609C76B26574D48000E2CDE /* OrderListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		1609C75226574788000E2CDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1609C75526574788000E2CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1609C75726574788000E2CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1609C75F265747F5000E2CDE /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		1609C763265749BA000E2CDE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1609C76726574A82000E2CDE /* CoffeeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeService.swift; sourceTree = "<group>"; };
+		1609C76B26574D48000E2CDE /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		1609C74826574787000E2CDE /* CoffeeApp */ = {
 			isa = PBXGroup;
 			children = (
+				1609C76A26574D26000E2CDE /* ViewModels */,
+				1609C76626574A6D000E2CDE /* Services */,
+				1609C75E265747DB000E2CDE /* Models */,
 				1609C74926574787000E2CDE /* AppDelegate.swift */,
 				1609C74B26574787000E2CDE /* SceneDelegate.swift */,
 				1609C74D26574787000E2CDE /* ContentView.swift */,
@@ -73,6 +84,31 @@
 				1609C75226574788000E2CDE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1609C75E265747DB000E2CDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1609C75F265747F5000E2CDE /* Coffee.swift */,
+				1609C763265749BA000E2CDE /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1609C76626574A6D000E2CDE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1609C76726574A82000E2CDE /* CoffeeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1609C76A26574D26000E2CDE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1609C76B26574D48000E2CDE /* OrderListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +183,11 @@
 			files = (
 				1609C74A26574787000E2CDE /* AppDelegate.swift in Sources */,
 				1609C74C26574787000E2CDE /* SceneDelegate.swift in Sources */,
+				1609C764265749BA000E2CDE /* Order.swift in Sources */,
 				1609C74E26574787000E2CDE /* ContentView.swift in Sources */,
+				1609C76C26574D48000E2CDE /* OrderListViewModel.swift in Sources */,
+				1609C760265747F5000E2CDE /* Coffee.swift in Sources */,
+				1609C76826574A82000E2CDE /* CoffeeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
